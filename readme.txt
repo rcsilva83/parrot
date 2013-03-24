@@ -1,4 +1,4 @@
-Theme based on Publish [1] but with fullscreen layout based on Carrot [2].
+A port of the Carrot theme [1] to Wordpress based on the code of Publish theme [2].
 
-[1] https://github.com/kovshenin/publish
-[2] http://cyrilmottier.com/
+[1] http://cyrilmottier.com/
+[2] https://github.com/kovshenin/publish
