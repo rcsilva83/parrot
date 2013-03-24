@@ -46,7 +46,8 @@ html {
 	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 body {
-	background: #fff;
+	background-color: #F8F8F8;
+	max-width: 1200px;
 }
 article,
 aside,
@@ -371,7 +372,6 @@ img.aligncenter {
 
 .main-navigation {
 	display: block;
-	float: left;
 	clear: both;
 	width: 100%;
 }
@@ -424,6 +424,7 @@ img.aligncenter {
 .menu-toggle {
 	cursor: pointer;
 }
+
 .main-small-navigation .menu {
 	display: none;
 }
@@ -461,7 +462,7 @@ img.aligncenter {
 	margin-top: 34px;
 }
 .hentry {
-	/* margin: 0 0 1.5em; */
+/* margin: 0 0 1.5em; */
 }
 .entry-meta {
 	clear: both;
@@ -609,7 +610,7 @@ object {
 
 .site-content .site-navigation {
 	overflow: hidden;
-	/* margin: 0 0 1.5em; */
+/* margin: 0 0 1.5em; */
 }
 .site-content .nav-previous,
 .site-navigation .previous-image {
@@ -786,7 +787,7 @@ body {
 }
 
 .site-title a {
-	color: inherit;
+	color: #CCCCCC;
 	text-decoration: none;
 }
 
@@ -885,7 +886,8 @@ h6 {
 }
 
 .site-main article {
-	padding: 10px 0 40px 0;
+	padding-left: 55px;
+	padding-right: 55px;
 	border-bottom: solid 1px #ddd;
 }
 
@@ -913,28 +915,38 @@ h6 {
 }
 
 .site {
-	background-color: #ffffff;
-	margin: 60px auto;
-	padding: 0 40px;
-	width: 750px;
+}
+
+.site-main {
+	margin-left: 280px;
 }
 
 .site-header {
-	float: left;
-	margin-top: 34px;
-	margin-bottom: 40px;
-	width: 24%;
+	background: none repeat scroll 0 0 #333333;
+	padding: 16px;
+	width: 248px;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+}
+
+.site-header h1 {
+	color: #CCCCCC;
 }
 
 .site-content,
 .site-footer {
-	float: right;
-	width: 70%;
+	float: left;
+	max-width: 900px;
+}
+
+.site-content article {
+	float: left;
 }
 
 .widget-area {
 	float: left;
-	width: 24%; /* Sidebar 1 */
+	width: 100%;
 	clear: left;
 }
 
@@ -987,7 +999,7 @@ table th {
 
 /* iPads (landscape) ----------- */
 @media only screen and (max-width : 900px) {
-/* Styles */
+	/* Styles */
 
 	.site {
 		position: relative;
@@ -995,44 +1007,44 @@ table th {
 		padding: 40px;
 		width: auto;
 	}
-
+	
 	.site-header,
-	.site-content,
-	.site-footer,
-	.widget-area {
+														.site-content,
+														.site-footer,
+														.widget-area {
 		width: 100%;
 	}
-
+	
 	.site-header {
 		margin-top: 0;
 	}
-
+	
 	.site-title,
-	.site-description {
+														.site-description {
 		clear: none;
 		margin-left: 70px;
 	}
-
+	
 	.site-logo,
-	.site-logo img {
+														.site-logo img {
 		float: left;
 		width: 50px;
 		height: auto;
 	}
-
+	
 	.main-navigation {
 		clear: none;
 		margin-left: -10px;
 		padding-top: 20px;
 		width: auto;
 	}
-
+	
 	.main-navigation li {
 		display: inline-block;
 		padding: 5px 10px;
 		width: auto;
 	}
-
+	
 	/* Small Navigation */
 	.main-small-navigation {
 		position: absolute;
@@ -1043,31 +1055,31 @@ table th {
 		background: #F2F7F9;
 		margin-top: 0;
 	}
-
+	
 	.main-small-navigation ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
 	}
-
+	
 	.main-small-navigation a {
 		display: block;
 		padding: 10px 40px;
 		border-top: solid 1px #ddd;
 	}
-
+	
 	.main-small-navigation .menu-toggle {
 		margin: 0;
 		padding: 10px 40px;
 		font-size: 14px;
 	}
-
+	
 	.main-small-navigation .menu-toggle:before {
 		margin-right: 10px;
 		margin-left: -20px;
 		content: '\2261';
 	}
-
+	
 	.main-small-navigation .menu-toggle.toggled-on {
 		background: white;
 	}

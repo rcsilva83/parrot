@@ -4,8 +4,8 @@
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
- * @package Publish
- * @since Publish 1.0
+ * @package Publish Fullscreen
+ * @since Publish Fullscreen 1.0
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -41,6 +41,8 @@
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 1 ) ); ?>
 		</nav><!-- .site-navigation .main-navigation -->
+
+<?php get_sidebar(); ?>
 
 		<?php do_action( 'publish_header_after' ); ?>
 	</header><!-- #masthead .site-header -->

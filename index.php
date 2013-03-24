@@ -8,8 +8,8 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Publish
- * @since Publish 1.0
+ * @package Publish Fullscreen
+ * @since Publish Fullscreen 1.0
  */
 
 get_header(); ?>
@@ -43,5 +43,4 @@ get_header(); ?>
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
