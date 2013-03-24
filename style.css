@@ -777,7 +777,8 @@ ul.children .comment-author {
 
 body {
 	color: #222;
-	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 15px "Open Sans", Helvetica, Arial, sans-serif;
+/*	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-weight: 300;
 	line-height: 1.6;
 }
