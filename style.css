@@ -823,6 +823,9 @@ body {
 .main-navigation a,
 .widget-area ul li a {
 	padding: 2px 0px;
+}
+
+.widget-area a {
 	text-decoration: none;
 }
 
