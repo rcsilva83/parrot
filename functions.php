@@ -133,7 +133,7 @@ function publish_get_footer_credits( $credits = '' ) {
 	return sprintf(
 		'%1$s %2$s',
 		'<a href="' . esc_url( __( 'http://wordpress.org/', 'publish' ) ) . '" rel="generator">' . __( 'Proudly powered by WordPress', 'publish' ) . '</a>',
-		sprintf( __( 'Theme: %1$s by %2$s.', 'publish' ), 'Publish', '<a href="http://kovshenin.com/" rel="designer">Konstantin Kovshenin</a>' )
+		sprintf( __( 'Theme: %1$s by %2$s.', 'publish' ), 'Parrot', '<a href="http://rodrigocarvalho.blog.br/" rel="designer">Rodrigo Carvalho</a>' )
 	);
 }
 add_filter( 'infinite_scroll_credit', 'publish_get_footer_credits' );
