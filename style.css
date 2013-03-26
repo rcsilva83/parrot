@@ -609,7 +609,8 @@ object {
 ----------------------------------------------- */
 
 .site-content .site-navigation {
-	overflow: hidden;
+/* TODO: understand why the navigation isn't shown with the overflow */
+/*	overflow: hidden; Commented to show the navigation. */
 /* margin: 0 0 1.5em; */
 }
 .site-content .nav-previous,
