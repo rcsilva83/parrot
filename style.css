@@ -890,9 +890,13 @@ h6 {
 	font-weight: 300;
 }
 
+.site-info,
 .site-main article {
 	padding-left: 55px;
 	padding-right: 55px;
+}
+
+.site-main article {
 	border-bottom: solid 1px #ddd;
 }
 
@@ -922,7 +926,8 @@ h6 {
 .site {
 }
 
-.site-main {
+.site-main,
+.site-footer {
 	margin-left: 280px;
 }
 
